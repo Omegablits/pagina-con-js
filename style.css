@@ -16,6 +16,15 @@ body{
     background-color: #F0F4F3;
 }
 
+/* .container-form small{
+    display: none;
+}
+
+.was-validate small{
+    display: block;
+    color: red;
+} */
+
 .container{
     width: 800px;
     height: 500px;
@@ -101,6 +110,23 @@ body{
     margin-top: 10px;
     background-color: #B57EDC;
     color: white;
+}
+
+form .button input{
+    width: 170px;
+    height: 45px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    background-color: #B57EDC;
+    color: white;
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
 }
 
 /* animacion del formulario */
